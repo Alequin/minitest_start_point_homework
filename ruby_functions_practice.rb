@@ -53,3 +53,9 @@ def calc_cube_volume(side_length)
   area = side_length**2
   return area*side_length
 end
+
+# finds the volume of a sphere to 1dp
+def calc_sphere_volume(radius)
+  answer = (4.0/3.0)*Math::PI*(radius**3)
+  return answer.round(1)
+end

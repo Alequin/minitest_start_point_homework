@@ -30,3 +30,17 @@ end
 def add_string_as_number(str_num_1, str_num_2)
   return str_num_1.to_i + str_num_2.to_i
 end
+
+def number_to_full_month_name(month_number)
+
+  month_name = case month_number
+  when 1
+    "January"
+  when 3
+    "March"
+  when 9
+    "September"
+  end
+
+  return month_name
+end

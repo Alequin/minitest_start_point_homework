@@ -46,15 +46,15 @@ class Functions_Practice < MiniTest::Test
     assert_equal( 3, add_result )
   end
 
-  # def test_number_to_full_name()
-  #   first_month_string = number_to_full_month_name( 1 )
-  #   third_month_string = number_to_full_month_name( 3 )
-  #   ninth_month_string = number_to_full_month_name( 9 )
-  #   assert_equal( "January", first_month_string )
-  #   assert_equal( "March", third_month_string )
-  #   assert_equal( "September", ninth_month_string )
-  # end
-  #
+  def test_number_to_full_name()
+    first_month_string = number_to_full_month_name( 1 )
+    third_month_string = number_to_full_month_name( 3 )
+    ninth_month_string = number_to_full_month_name( 9 )
+    assert_equal( "January", first_month_string )
+    assert_equal( "March", third_month_string )
+    assert_equal( "September", ninth_month_string )
+  end
+
   # def test_substring()
   #   first_month_string = number_to_short_month_name( 1 )
   #   third_month_string = number_to_short_month_name( 3 )

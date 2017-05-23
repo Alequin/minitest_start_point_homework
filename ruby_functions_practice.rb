@@ -59,3 +59,9 @@ def calc_sphere_volume(radius)
   answer = (4.0/3.0)*Math::PI*(radius**3)
   return answer.round(1)
 end
+
+# converts fahrenheit to celsius and rounds the answer to 1dp
+def fahrenheit_to_celsius(fahernheit)
+  answer = (fahernheit - 32)*(5.0/9.0)
+  return answer.round(1)
+end

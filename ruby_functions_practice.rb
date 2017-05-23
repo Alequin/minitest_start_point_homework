@@ -48,3 +48,8 @@ end
 def number_to_short_month_name(month_number)
   return number_to_full_month_name(month_number)[0..2]
 end
+
+def calc_cube_volume(side_length)
+  area = side_length**2
+  return area*side_length
+end
